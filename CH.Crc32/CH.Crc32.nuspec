@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>CH.Crc32</id>
+    <version>1.0</version>
+    <authors>Clifford Hammerschmidt</authors>
+    <owners>Clifford Hammerschmidt</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
+    <projectUrl>https://github.com/tanglebones/ch-crc32</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Very simple table driven CRC32 impementation. Not fancy or fast, but easy to use.</description>
+    <tags>crc32 crc</tags>
+  </metadata>
+</package>
