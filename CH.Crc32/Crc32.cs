@@ -77,8 +77,9 @@ namespace CH.Crc32
             var crc = data.Aggregate(
                 0xFFFFFFFF,
                 (current, b) =>
-                Crc32Table[((current >> 24) ^ b) & 0xFFL] ^ (current << 8)
+                Crc32Table[(current & 0xFFu) ^ b] ^ (current >> 8)
                 );
+
             return crc ^ 0xFFFFFFFF;
         }
     }
